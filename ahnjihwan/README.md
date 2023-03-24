@@ -1,7 +1,5 @@
 # Core-Java
 
-## 환경 설정하기
-
 ## Gradle로 Java Application 빌드 환경
 1. 프로젝트에 생성할 폴더를 만듭니다.
 ```bash
@@ -76,4 +74,17 @@ BUILD SUCCESSFUL
             └── java 
                 └── demo
                     └── AppTest.java
+```
+
+## 라이브러리 추가하기
+
+테스트 코드를 작성하도록 돕는 AssertJ 라이브러리를 알아봅시다.
+
+### AssertJ의 장점
+* 메소드 체이닝을 지원하기 때문에 좀 더 깔끔하고 읽기 쉬운 테스트 코드를 작성할 수 있습니다.
+* 개발자가 테스트를 하면서 필요하다고 상상할 수 있는 거의 모든 메소드를 제공합니다.
+
+1. Gradle에 AssertJ 라이브러리를 추가합니다.
+```groovy
+testImplementation 'org.assertj:assertj-core:3.24.2'
 ```
