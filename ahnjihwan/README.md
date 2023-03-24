@@ -88,3 +88,13 @@ BUILD SUCCESSFUL
 ```groovy
 testImplementation 'org.assertj:assertj-core:3.24.2'
 ```
+
+2. AssertJ 메소드를 임포트합니다.
+```java
+import static org.assertj.core.api.Assertions.assertThat; 
+```
+
+3. AppTest.java 테스트 코드를 작성합니다.
+```java
+assertThat(classUnderTest.getGreeting()).isEqualTo("Hello World!");
+```
