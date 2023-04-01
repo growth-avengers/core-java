@@ -1,6 +1,6 @@
 package core.ch1;
 
-public class Example01 {
+public class ch1_1 {
 
     // 정수를 2진수로 풀어라
     public String binaryNumber(int number) {

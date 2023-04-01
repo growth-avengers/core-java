@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 // 정수를 읽어서 2진수, 8진수, 16진수로 출력하는 프로그램을 작성하라.
-class Example01Test {
-    Example01 example;
+class ch1_1Test {
+    ch1_1 example;
 
     @BeforeEach
     void setUp() {
-        example = new Example01();
+        example = new ch1_1();
     }
 
     @Test
